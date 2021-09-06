@@ -14,7 +14,7 @@ FROM nginx
 
 EXPOSE 3000
 
-COPY ./nginx/nginx.conf /etc/nginx/conf.d/default.conf
+COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
 
 ENV CI=true
 
